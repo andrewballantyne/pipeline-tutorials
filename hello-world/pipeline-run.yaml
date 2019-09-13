@@ -1,0 +1,9 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineRun
+metadata:
+  name: hello-world-pipeline
+spec:
+  pipelineRef:
+    name: hello-world-pipeline
+  trigger:
+    type: manual
