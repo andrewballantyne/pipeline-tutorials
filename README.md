@@ -16,3 +16,4 @@ I'll be combining information from both the [OpenShift Pipeline Tutorial Repo](h
 ## Examples
 
 * [Hello World](hello-world/README.md) - A simple introduction that does the initial programming example of printing out hello world.
+* [No Task Pipeline](no-task-pipeline/README.md) - A shell of a pipeline to test the bare minimum to a pipeline.
