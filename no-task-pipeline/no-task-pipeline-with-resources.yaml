@@ -1,0 +1,8 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Pipeline
+metadata:
+  name: no-task-pipeline-with-resources
+spec:
+  resources:
+    - name: app-git
+      type: git
