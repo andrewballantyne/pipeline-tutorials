@@ -5,5 +5,3 @@ metadata:
 spec:
   pipelineRef:
     name: hello-world-pipeline
-  trigger:
-    type: manual
